@@ -14,7 +14,7 @@ import RecipesList from './modules/Recipes/Components/RecipesList/RecipesList';
 import CategoriesList from './modules/Categories/Components/CategoriesList/CategoriesList';
 import UsersList from './modules/Users/Components/UsersList/UsersList';
 import Favourites from './modules/Favourites/Components/FavouritesList/Favourites';
-import Dashboard from './modules/dashboard/Components/dashboard/dashboard';
+import Dashboard from './modules/dashboard/Components/dashboard/Dashboard.jsx';
 import { ToastContainer } from 'react-toastify';
 import { jwtDecode } from 'jwt-decode';
 import { useState } from 'react';
