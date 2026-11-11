@@ -1,5 +1,5 @@
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import AuthLayout from './modules/Shard/Components/AuthLayout/AuthLayout';
 import Notfound from './modules/Shard/Components/Notfound/Notfound';
@@ -28,7 +28,7 @@ function App() {
     setLoginData(decoded);
   }
 
-  const routers = createBrowserRouter([
+  const routers = createHashRouter([
     {
 
 
